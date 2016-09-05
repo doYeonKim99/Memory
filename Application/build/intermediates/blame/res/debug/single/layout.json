@@ -8,6 +8,14 @@
         "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_screen_simple.xml"
     },
     {
+        "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/fragment_nct.xml",
+        "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/src/main/res/layout/fragment_nct.xml"
+    },
+    {
+        "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/fragment_nct_.xml",
+        "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/src/main/res/layout/fragment_nct_.xml"
+    },
+    {
         "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_list_menu_item_icon.xml"
     },
@@ -54,10 +62,6 @@
     {
         "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/fragment_planet.xml",
-        "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/src/main/res/layout/fragment_planet.xml"
     },
     {
         "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
@@ -154,6 +158,10 @@
     {
         "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/fragment_nct_dream.xml",
+        "source": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/src/main/res/layout/fragment_nct_dream.xml"
     },
     {
         "merged": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
