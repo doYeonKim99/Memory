@@ -18,4 +18,8 @@ limitations under the License.
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light">
     </style>
+
+    <style name="SplashTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/jisung</item>
+    </style>
 </resources>

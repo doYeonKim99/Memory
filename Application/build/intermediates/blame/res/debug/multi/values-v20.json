@@ -22,6 +22,27 @@
                         "endOffset": 745
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 134,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 290
+                },
+                "from": {
+                    "file": "/Users/appcreator36/AndroidStudioProjects/Memory/Application/src/main/res/values-v20/styles.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 751,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 907
+                    }
+                }
             }
         ]
     }
