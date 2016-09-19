@@ -13,9 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.example.android.navigationdrawer;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -37,7 +35,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.util.Locale;
-
 /**
  * This example illustrates a common usage of the DrawerLayout widget
  * in the Android support library.
@@ -224,8 +221,8 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
             // Empty constructor required for fragment subclasses
         }
 
-        public static Fragment newInstance(int position,NavigationDrawerActivity nda) {
-            m_nda=nda;햣
+        public static Fragment newInstance(int position, NavigationDrawerActivity nda) {
+            m_nda=nda;
             Fragment fragment = new PlanetFragment();
             Bundle args = new Bundle();
             args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
@@ -238,15 +235,22 @@ public class NavigationDrawerActivity extends Activity implements PlanetAdapter.
                                  Bundle savedInstanceState) {
             View rootView=null;
             int i = getArguments().getInt(ARG_PLANET_NUMBER);
-            if(i==0)
+            if(i==0) {
                 rootView = inflater.inflate(R.layout.fragment_nct, container, false);
-            else if(i==1)
+                iv = ((ImageView) rootView.findViewById(R.id.image));
+            }
+            else if(i==1) {
                 rootView = inflater.inflate(R.layout.fragment_nct_, container, false);
-            else
+                iv = ((ImageView) rootView.findViewById(R.id.image));
+            }
+            else{
                 rootView = inflater.inflate(R.layout.fragment_nct_dream, container, false);
+                iv = ((ImageView) rootView.findViewById(R.id.image));
+            }
 
-            iv=((ImageView)rootView.findViewById(R.id.image));
-            iv.setOnClickListener(NavigationDrawerActivity.this);
+       //     iv.setOnClickListener(m_nda);
+      //      iv.setImageResource(R.drawable.jisung);
+     //       getActivity().setTitle(planet);
             return rootView;
         }
     }
